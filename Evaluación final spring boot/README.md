@@ -1,5 +1,38 @@
 # INSTRUCCIONES DE VERIFICACIÓN - API VEHÍCULOS
 
+## Estado de verificación local (19-11-2025)
+
+- **Compilación:** ✅ `mvn -DskipTests package` -> BUILD SUCCESS
+- **Conexión a MongoDB:** ✅ `spring.data.mongodb.uri=mongodb://localhost:27017/vehicledb` -> cliente Mongo conectado correctamente
+- **Inicio de la aplicación:** ❌ Falló al iniciar porque el puerto `8080` ya estaba en uso. Soluciones: detener proceso que use 8080 o cambiar `server.port` en `application.properties`.
+
+> Nota: Para evitar conflictos en la máquina de verificación, la aplicación ahora usa `server.port=8081`. Puedes cambiarlo de nuevo en `src/main/resources/application.properties` si lo necesitas.
+
+### Script de arranque rápido
+
+He añadido `start-app.ps1` en la raíz del proyecto. Este script:
+
+- Compila el proyecto (`mvn -DskipTests package`).
+- Arranca el JAR en background en el puerto `8081`.
+- Verifica rápidamente el endpoint `http://localhost:8081/api/vehicles`.
+
+Para ejecutarlo (PowerShell):
+```powershell
+cd 'c:\ISWDISENO202502-1SebastianRosero16\Evaluación final spring boot'
+.\n+\start-app.ps1
+```
+
+Si prefieres arrancar manualmente:
+```powershell
+# Compilar
+mvn -DskipTests package
+
+# Ejecutar el JAR en puerto 8081
+cd target
+java -jar vehicle-api-1.0.0.jar --server.port=8081
+```
+
+
 ## ✅ CHECKLIST DE ENTREGA
 
 - [x] CRUD completo implementado (Create, Read, Update, Delete)
