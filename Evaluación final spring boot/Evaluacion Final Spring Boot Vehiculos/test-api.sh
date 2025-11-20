@@ -5,7 +5,7 @@ echo "  Verificación Automática - Vehicle API"
 echo "========================================="
 echo ""
 
-API_URL="http://localhost:8080/api/vehicles"
+API_URL="http://localhost:8081/api/vehicles"
 
 echo "Verificando que la API está corriendo..."
 if ! curl -s --fail $API_URL > /dev/null; then
