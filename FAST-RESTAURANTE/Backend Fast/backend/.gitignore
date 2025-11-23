@@ -1,0 +1,10 @@
+# Solo ignorar archivos compilados dentro de target
+target/*.jar
+target/classes/
+target/generated-sources/
+target/maven-archiver/
+target/maven-status/
+target/test-classes/
+
+# Pero permitir que se suba la estructura
+!target/
