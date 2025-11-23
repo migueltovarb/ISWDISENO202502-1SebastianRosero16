@@ -1,0 +1,106 @@
+[
+  {
+    "idProducto": "prod001",
+    "nombre": "Pizza Margarita",
+    "descripcion": "Pizza clásica italiana con tomate fresco, mozzarella de búfala y albahaca",
+    "precio": 12.99,
+    "disponible": true,
+    "ingredientes": ["tomate", "mozzarella", "albahaca", "aceite de oliva"]
+  },
+  {
+    "idProducto": "prod002",
+    "nombre": "Pizza Pepperoni",
+    "descripcion": "Pizza con abundante pepperoni y mozzarella",
+    "precio": 14.99,
+    "disponible": true,
+    "ingredientes": ["pepperoni", "mozzarella", "tomate", "orégano"]
+  },
+  {
+    "idProducto": "prod003",
+    "nombre": "Hamburguesa Clásica",
+    "descripcion": "Hamburguesa 180g con lechuga, tomate, queso y papas fritas",
+    "precio": 8.99,
+    "disponible": true,
+    "ingredientes": ["carne", "lechuga", "tomate", "queso", "cebolla", "pepinillos"]
+  },
+  {
+    "idProducto": "prod004",
+    "nombre": "Hamburguesa BBQ",
+    "descripcion": "Hamburguesa con salsa BBQ, tocino y cebolla caramelizada",
+    "precio": 10.99,
+    "disponible": true,
+    "ingredientes": ["carne", "tocino", "cebolla", "queso", "salsa BBQ"]
+  },
+  {
+    "idProducto": "prod005",
+    "nombre": "Ensalada César",
+    "descripcion": "Lechuga romana, pollo, crutones y aderezo césar",
+    "precio": 7.50,
+    "disponible": true,
+    "ingredientes": ["lechuga", "pollo", "crutones", "parmesano", "aderezo césar"]
+  },
+  {
+    "idProducto": "prod006",
+    "nombre": "Pasta Alfredo",
+    "descripcion": "Fettuccine en salsa alfredo con pollo",
+    "precio": 11.99,
+    "disponible": true,
+    "ingredientes": ["pasta", "pollo", "crema", "parmesano", "brócoli"]
+  },
+  {
+    "idProducto": "prod007",
+    "nombre": "Tacos al Pastor",
+    "descripcion": "3 tacos con carne al pastor, piña y cilantro",
+    "precio": 9.99,
+    "disponible": true,
+    "ingredientes": ["carne", "piña", "cilantro", "cebolla", "tortilla"]
+  },
+  {
+    "idProducto": "prod008",
+    "nombre": "Burrito Mexicano",
+    "descripcion": "Burrito con carne, frijoles, arroz y guacamole",
+    "precio": 11.50,
+    "disponible": true,
+    "ingredientes": ["carne", "frijoles", "arroz", "queso", "guacamole", "tortilla"]
+  },
+  {
+    "idProducto": "prod009",
+    "nombre": "Alitas Buffalo",
+    "descripcion": "12 alitas picantes con salsa buffalo",
+    "precio": 12.99,
+    "disponible": true,
+    "ingredientes": ["pollo", "salsa buffalo", "apio", "zanahoria"]
+  },
+  {
+    "idProducto": "prod010",
+    "nombre": "Nachos Supreme",
+    "descripcion": "Nachos con queso, carne, jalapeños y guacamole",
+    "precio": 10.50,
+    "disponible": true,
+    "ingredientes": ["nachos", "queso", "carne", "jalapeños", "guacamole"]
+  },
+  {
+    "idProducto": "prod011",
+    "nombre": "Sushi Roll California",
+    "descripcion": "8 piezas de California roll",
+    "precio": 13.99,
+    "disponible": false,
+    "ingredientes": ["arroz", "cangrejo", "aguacate", "pepino", "alga nori"]
+  },
+  {
+    "idProducto": "prod012",
+    "nombre": "Wrap Mediterráneo",
+    "descripcion": "Wrap de pollo con hummus y vegetales",
+    "precio": 8.99,
+    "disponible": true,
+    "ingredientes": ["pollo", "hummus", "vegetales", "queso feta", "tortilla"]
+  },
+  {
+    "idProducto": "prod013",
+    "nombre": "Sándwich Club",
+    "descripcion": "Triple sandwich con pavo, tocino y queso",
+    "precio": 9.50,
+    "disponible": true,
+    "ingredientes": ["pavo", "tocino", "lechuga", "tomate", "queso", "pan"]
+  }
+]
